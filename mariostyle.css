@@ -20,10 +20,25 @@ body {
     margin-top: 19px;
 }
 
-h1 {
+#bigtext {
     font-family: "Indivisible";
     font-size: 90px;
     color:#d93918;
+}
+
+.content1 {
+    background-color: #0b4fcc;
+    width: auto;
+    height: 540px;
+    margin-top: 100px;
+}
+
+.content2 {
+    background-color: #d93918;
+    /*background-image: linear-gradient(180deg, #8a0b0b, #c42020, #c42020, #c42020, #c42020);*/
+    width: auto;
+    height: 540px;
+    margin-top: 0px;
 }
 
 
@@ -34,4 +49,16 @@ pre {
     white-space: -o-pre-wrap; /* Opera */
     white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
     word-wrap: break-word; /* IE 5.5+ */
+}
+
+#gameimage1 {
+    rotate: -5deg;
+    margin: 70px;
+    box-shadow: 10px 10px rgba(0, 18, 100, 0.3);
+}
+
+#gameimage2 {
+    rotate: 4deg;
+    margin: 70px;
+    box-shadow: 10px 10px rgb(100, 0, 0, 0.3);
 }
